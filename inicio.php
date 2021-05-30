@@ -36,6 +36,32 @@ echo $otroArray[0];
 echo $otroArray[1];
 echo $otroArray[2];
 var_dump($otroArray);
+
+/*ARRAY ASOCIATVIO*/
+$miArray1 = [
+ "nombre" =>"darian",
+ "apellido"=>"sus",
+ "colores" =>["azul","rojo","verde"]
+];
+echo $miArray1["apellido"];
+
+/*operadores +- POTENCIA Y PORCENTAJE EJEMPLO CONCANEDACION TAMBIEM */
+$numero1 = 32;
+$numero2 = 58;
+$resultado = $numero1 + $numero2;
+$resultado1 = $numero1 * $numero2;
+$resultado2 = $numero1 ** $numero2;
+
+$Nombre = "MARIO";
+$apellido = "damasco";
+
+$TEXTO = "Mi nombre es " . $Nombre . " y " . $apellido;
+
+
+echo $TEXTO;
+
+
+
  ?>
   </body>
 </html>
