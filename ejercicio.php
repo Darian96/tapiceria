@@ -14,6 +14,7 @@ echo "<br>";
 echo $persona["direccion"];
 $persona["hobbies"][] ="leer libros";
 var_dump($persona["hobbies"]);
+var_dump($persona["hobbies"]);
 echo $persona["hobbies"][3];
 
 echo "<br>";
@@ -33,6 +34,9 @@ echo $aleatorio;
   echo "no se encontro el 3 y 5";
 };
 echo "<br>";
+
+
+
 $rango = rand(1,100);
 if ($rango>=50) {
   echo $rango;
@@ -41,11 +45,13 @@ if ($rango>=50) {
   echo "el numero es menor  $rango";
 }
 echo "<br>";
+
+
 $nombreDeUsuario ="admin";
-$ContraseniaDeUsuario ="";
+$ContraseniaDeUsuario ="add";
 
 if ($nombreDeUsuario =="admin"  && $ContraseniaDeUsuario =="1234") {
-  echo "BIENBENIDO";
+  echo "BIENVENIDO";
 }else if ($nombreDeUsuario != "admin") {
   if ($nombreDeUsuario == "") {
     echo "esta vacio el nombre";

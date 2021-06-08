@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>tapiceria</title>
-  </head>
+<?php include("header.php");  ?>
   <body>
 aqui va la hora
 <?php
