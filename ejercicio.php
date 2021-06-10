@@ -65,3 +65,52 @@ if ($nombreDeUsuario =="admin"  && $ContraseniaDeUsuario =="1234") {
   echo "error clave  " . $ContraseniaDeUsuario;
   }
 }
+$edad = 18;
+$casado = [true,false];
+$sexo = ["masculino","femenino","otro"];
+
+echo "<br>";
+if ($edad >=18 && $casado[1] == false && $sexo[1]=="otro") {
+echo "bienvendio";
+}else {
+echo"no cumple con los requisitos";
+}
+echo "<br>";
+$cantidadDeALumnos = 100;
+if ($cantidadDeALumnos) {
+  echo "true";
+  // code...
+}else {
+  echo "false";
+}
+echo "<br>";
+$numero = true;
+$resultado = $numero  ? 'verdadero' : 'falso';
+
+echo $resultado;
+
+echo "<br>";
+$nota = rand(0,10);
+switch ($nota) {
+case 4 :
+echo "es $nota";
+  break;
+  case 5:
+    echo "es $nota";
+    break;
+
+  case 6:
+    echo "la nota es $nota";
+    break;
+  case 8:
+      echo "la nota es $nota";
+      break;
+  case 9:
+      echo "la nota es $nota muy bien";
+        break;
+  case 10:
+  echo "la nota es $nota Excelente";
+    break;
+    default:
+  echo "el numero no es valido $nota :(";
+}

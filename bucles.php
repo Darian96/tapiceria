@@ -94,11 +94,4 @@ foreach ($persona as $posicion => $valor) {
   echo "la pocision de array  es ".$posicion. "su valor es " .  $valor . "<br>";
 };
 
-
-
-
-
-
-
-
  ?>
