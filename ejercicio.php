@@ -112,5 +112,5 @@ echo "es $nota";
   echo "la nota es $nota Excelente";
     break;
     default:
-  echo "el numero no es valido $nota :(";
+  echo "el numero no es valido $ :(";
 }
